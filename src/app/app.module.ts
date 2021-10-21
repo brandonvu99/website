@@ -9,6 +9,7 @@ import { ProjectsComponent } from './components/pages/projects/projects.componen
 import { ResumeComponent } from './components/pages/resume/resume.component';
 import { HomeServerComponent } from './components/pages/home-server/home-server.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
+import { HeaderComponent } from './components/layout/header/header.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactComponent } from './components/pages/contact/contact.component';
     ProjectsComponent,
     ResumeComponent,
     HomeServerComponent,
-    ContactComponent
+    ContactComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
